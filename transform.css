@@ -1,0 +1,41 @@
+.caja1{width: 200px;
+height: 200px;
+background: red;
+transform: rotate(20deg);}
+
+.caja2{width: 200px; 
+	height: 200px;
+	background: blue;
+	transition-property: all;
+	transition-duration: 3s;
+	transition-timing-function: liner;
+	transition-delay: 0;
+}
+
+.caja2:hover{transform: rotate(180deg);}
+
+.auto{width: 600px; height: 200px; background: gray;
+transition-property: all;
+	transition-duration: 3s;
+	transition-timing-function: liner;
+	transition-delay: 0;}
+
+.auto:hover{background-color: pink;}
+.auto:hover .rueda{transform: rotate(1580deg);}
+
+.rueda{ width: 100px; 
+	height: 100px; 
+	background: linear-gradient(orange, red, yellow);
+	border-radius: 50%;
+	position: absolute;
+ 	top: 150px;}
+
+.rueda1{left: 40px;transition-property: all;
+	transition-duration: 3s;
+	transition-timing-function: liner;
+	transition-delay: 0;}
+
+.rueda2{left: 450px;transition-property: all;
+	transition-duration: 3s;
+	transition-timing-function: liner;
+	transition-delay: 0;}
